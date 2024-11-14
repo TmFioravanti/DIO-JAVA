@@ -9,6 +9,14 @@ public class Operadores {
     int divisao = 500 / 10;
     int modulo = 18 % 3;
     double resultado = (10 * 7)+(20 / 4);
+
+    System.out.println(soma);
+    System.out.println(subtracao);
+    System.out.println(multiplicacao);
+    System.out.println(divisao);
+    System.out.println(modulo);
+    System.out.println(resultado);
+
      /*Contatenar textos usamos tambem o operador logico + */
 
      String nomeCompleto = "LINGUAGUEM"+"JAVA";
@@ -26,7 +34,7 @@ public class Operadores {
      numero = numero * -1;
      System.out.println(numero);
 
-     numero = ++ numero;
+     numero = numero++;
      System.out.println(numero);
 
      boolean numeroReal = true;
