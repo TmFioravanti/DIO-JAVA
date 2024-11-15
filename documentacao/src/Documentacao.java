@@ -17,6 +17,6 @@ public class Documentacao {
     public void documentacaoJavaDoc(){
 
         String codigo =" javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ..docs src*.java";
-
+            System.out.println(codigo);
     }
 }
